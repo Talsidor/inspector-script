@@ -3,8 +3,8 @@ Lua-powered, ultra-fast micro scripts in the Unity Inspector
 
 | :warning: Please note           |
 |:----------------------------|
-| This package has a UPM dependency on a [UPM fork of MoonScript by k0dep](https://github.com/k0dep/MoonSharp/). |
-| If this package becomes unavailable, you don't trust it, or any other reason, feel free to switch this out for any other implementation of MoonScript |
+| This package has a UPM dependency on an archived [UPM fork of MoonScript by k0dep](https://github.com/k0dep/MoonSharp/). |
+| If this package becomes unavailable, you don't trust it, or any other reason, feel free to switch this out for any other implementation of MoonScript. |
 
 # 1. Installation
 

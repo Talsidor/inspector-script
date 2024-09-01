@@ -7,7 +7,7 @@
   "documentationUrl": "https://github.com/Talsidor/inspector-script/README.md",
   "licensesUrl": "https://github.com/Talsidor/inspector-script/LICENSE",
   "dependencies": {
-	  "https://github.com/k0dep/MoonSharp.git": "2.0.0"
+	  "moonsharp": "git://github.com/k0dep/moonsharp.git#master"
   },
   "keywords": [
 	"lua",
@@ -16,5 +16,8 @@
   "author": {
     "name": "Talsidor",
     "url": "https://github.com/Talsidor/"
+  },
+  "bugs": {
+    "url": "https://github.com/Talsidor/inspector-script/issues"
   }
 }
