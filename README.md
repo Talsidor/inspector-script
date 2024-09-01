@@ -12,7 +12,7 @@ This repository is set up to be Unity Package Manager compatible.
 To install via the Package Manager:
 1. Open Package Manager window in your Unity Editor.
 2. Click the '+' icon in the top left and select 'Add package from git URL...'
-3. Enter '' and click Add.
+3. Enter 'https://github.com/Talsidor/inspector-script.git' and click Add.
 4. Confirm you can now use Inspector Script by opening the 'Examples' scene, or adding an Inspector Script component to a Game Object.
 
 ## 1.1. Compatibility
