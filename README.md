@@ -1,4 +1,4 @@
-# Inspector Script
+# InspectorScript
 Lua-powered, ultra-fast micro scripts in the Unity Inspector
 
 | :warning: Please note           |
@@ -17,14 +17,14 @@ To install via the Package Manager:
 
 ## 1.1. Compatibility
 
-Inspector Script should work in any version of Unity that supports MoonScript and the Unity Package Manager.
+InspectorScript should work in any version of Unity that supports MoonScript and the Unity Package Manager.
 But it was built in, and so far has only been tested in, Unity 2022.3.
 
 ----
 
 # 2. Example Scene
 
-The 'Examples' scene included in this package contains 5 examples of Inspector Script's functionality. Open and run the scene to see the scripts in motion, and select each of the Cube objects under the `[Examples]` scene object to see their scripts.
+The 'Examples' scene included in this package contains 5 examples of InspectorScript's functionality. Open and run the scene to see the scripts in motion, and select each of the Cube objects under the `[Examples]` scene object to see their scripts.
 
 Try making some changes to these scripts! Changes made in Play Mode will take effect immediately, but beware that like all Unity objects, changes made during Play Mode will be lost when leaving Play Mode.
 
@@ -41,14 +41,18 @@ All three of these properties are Vector3s. Like with regular Unity Vector3s, yo
 
 ### Examples
 
-Get value
-```var x = pos.x```
-
-Set value
-```rot.x = 5```
-
-Increment value
-```scale.y = scale.y + 0.1```
+- Get value
+  ```
+  var x = pos.x
+  ```
+- Set value
+  ```
+  rot.x = 5
+  ```
+- Increment value
+  ```
+  scale.y = scale.y + 0.1
+  ```
 
 ## 3.2. Available Unity properties:
 - `time` - seconds since play started
@@ -56,11 +60,14 @@ Increment value
 
 ### Examples
 
-Move forward at one unit per second
-```pos.z = pos.z + delta```
-
-Make Y position equal to seconds elapsed
-```pos.y = time```
+- Move forward at one unit per second
+  ```
+  pos.z = pos.z + delta
+  ```
+- Make Y position equal to seconds elapsed
+  ```
+  pos.y = time
+  ```
 
 ## 3.3. Lua functions confirmed working:
 - `print(x)` - Routed to log the passed argument to the Unity Debug Console
@@ -69,19 +76,21 @@ Make Y position equal to seconds elapsed
 
 ### Examples
 
-Log value of z position every frame
-```print(pos.z)```
-
-Oscillate x between -1 and 1 once per second
-```pos.x = math.sin(time)```
-
-If statement
-```
-if (pos.y < -10) then
-  pos.y = 0
-end
-```
+- Log value of z position every frame
+  ```
+  print(pos.z)
+  ```
+- Oscillate x between -1 and 1 once per second
+  ```
+  pos.x = math.sin(time)
+  ```
+- If statement
+  ```
+  if (pos.y < -10) then
+    pos.y = 0
+  end
+  ```
 
 ----
 
-To learn more about the Lua interpreter backing Inspector Script, check out MoonSharp's [Getting Started](https://www.moonsharp.org/getting_started.html) guide.
+To learn more about the Lua interpreter backing InspectorScript, check out MoonSharp's [Getting Started](https://www.moonsharp.org/getting_started.html) guide.
