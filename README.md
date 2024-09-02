@@ -1,7 +1,8 @@
 # InspectorScript
 
-Lua-powered, no-fuss micro scripts in the Unity3D Inspector.
+> Lua-powered, no-fuss micro scripts in the Unity3D Inspector.
 
+You might have to **click** on this GIF to play it:
 ![Unity_Z8J0RDGeIz](https://github.com/user-attachments/assets/99ee0e15-bbfa-4f80-894e-2a993377f808)
 
 # 1. Installation
