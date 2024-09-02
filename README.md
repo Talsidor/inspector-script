@@ -1,12 +1,25 @@
 # InspectorScript
-Lua-powered, ultra-fast micro scripts in the Unity Inspector
 
-| :warning: Please note           |
-|:----------------------------|
-| This package has a UPM dependency on an archived [UPM fork of MoonSharp by k0dep](https://github.com/k0dep/MoonSharp/). |
-| If this package becomes unavailable, you don't trust it, or any other reason, feel free to switch this out for any other implementation of [MoonSharp](https://www.moonsharp.org/). |
+Lua-powered, ultra-fast micro scripts in the Unity3D Inspector.
+
+![Unity_Z8J0RDGeIz](https://github.com/user-attachments/assets/99ee0e15-bbfa-4f80-894e-2a993377f808)
 
 # 1. Installation
+
+## 1.1. Compatibility
+
+InspectorScript should work in any version of Unity that supports MoonScript and the Unity Package Manager.
+But it was built in, and so far has only been tested in, Unity 2022.3.
+
+## 1.2. Dependencies
+
+This package requires that your project has access to MoonSharp.
+Some suggested ways to get MoonSharp:
+1. Via the Unity Package Manager, by following the instructions on [k0dep's UPM-compatible fork of MoonSharp](https://github.com/k0dep/MoonSharp/) (Recommended)
+2. Via NuGet, by following the first step of [MoonSharp's Getting Started guide](https://www.moonsharp.org/getting_started.html)
+3. Manually, by downloading a release from [MoonSharp's GitHub](https://github.com/moonsharp-devs/moonsharp/releases)
+
+## 1.3. Installing via the Package Manager
 
 This repository is set up to be Unity Package Manager compatible.
 To install via the Package Manager:
@@ -15,10 +28,7 @@ To install via the Package Manager:
 3. Enter 'https://github.com/Talsidor/inspector-script.git' and click Add.
 4. Confirm you can now use Inspector Script by opening the 'Examples' scene, or adding an Inspector Script component to a Game Object.
 
-## 1.1. Compatibility
-
-InspectorScript should work in any version of Unity that supports MoonScript and the Unity Package Manager.
-But it was built in, and so far has only been tested in, Unity 2022.3.
+Alternatively, you can also simply checkout or download this repository and include it in your Unity Project's files.
 
 ----
 
